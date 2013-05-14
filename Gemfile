@@ -6,7 +6,10 @@ gem 'dynamic_form', '1.1.4'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'pry-rails'
+gem 'pry-doc'
+gem 'pry-debugger'
+gem 'launchy'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -37,11 +40,12 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-group :test, :development do 
+group :test, :development do
   gem 'rspec-rails', '~> 2.11'
-end 
+end
 
 group :test do
   gem 'capybara', '1.1.2'
   gem 'factory_girl', '2.6.4'
+  gem 'simplecov', require: false
 end;
