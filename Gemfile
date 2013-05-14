@@ -45,6 +45,7 @@ group :test, :development do
 end
 
 gem 'devise', '2.1.0'
+gem 'email_spec', '1.2.1'
 
 group :test do
   gem 'capybara', '1.1.2'
