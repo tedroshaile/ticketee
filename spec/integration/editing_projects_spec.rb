@@ -1,13 +1,14 @@
 require 'spec_helper'
 
 
-feature "Editing Projects" do 
+feature "Editing Projects" do
 	before do
+		sign_in_as!(Factory(:admin_user))
 		Factory(:project, :name => "TextMate 2")
 		visit "/"
 		click_link "TextMate 2"
 		click_link "Edit Project"
-	end 
+	end
 	scenario "Updating a project" do
 		fill_in "Name", :with => "TextMate 2 beta"
 		click_button "Update Project"
