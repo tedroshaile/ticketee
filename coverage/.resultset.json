@@ -18,6 +18,15 @@
       "/Users/ted/Sites/ticketee/app/controllers/application_controller.rb": [
         1,
         1,
+        null,
+        1,
+        1,
+        13,
+        13,
+        6,
+        6,
+        null,
+        null,
         null
       ],
       "/Users/ted/Sites/ticketee/app/helpers/application_helper.rb": [
@@ -34,12 +43,27 @@
         null,
         null
       ],
+      "/Users/ted/Sites/ticketee/app/helpers/admin/users_helper.rb": [
+        1,
+        null
+      ],
       "/Users/ted/Sites/ticketee/app/helpers/projects_helper.rb": [
         1,
         null
       ],
       "/Users/ted/Sites/ticketee/app/helpers/tickets_helper.rb": [
         1,
+        null
+      ],
+      "/Users/ted/Sites/ticketee/app/controllers/admin/base_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/ted/Sites/ticketee/app/controllers/admin/users_controller.rb": [
+        1,
+        1,
+        null,
         null
       ],
       "/Users/ted/Sites/ticketee/app/controllers/projects_controller.rb": [
@@ -95,12 +119,6 @@
         null,
         1,
         null,
-        null,
-        1,
-        12,
-        12,
-        5,
-        5,
         null,
         null,
         null
@@ -182,6 +200,6 @@
         null
       ]
     },
-    "timestamp": 1368654823
+    "timestamp": 1368657646
   }
 }
